@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EntityLayer.Properties
+namespace EFProject.Properties
 {
 
 

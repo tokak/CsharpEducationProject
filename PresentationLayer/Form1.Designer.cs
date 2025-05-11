@@ -1,4 +1,4 @@
-﻿namespace EntityLayer
+﻿namespace PresentationLayer
 {
     partial class Form1
     {
