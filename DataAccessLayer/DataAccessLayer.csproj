@@ -58,6 +58,11 @@
     <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Context\AppDbContext.cs" />
+    <Compile Include="EntityFramework\EfAdminDal.cs" />
+    <Compile Include="EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="EntityFramework\EfCustomerDal.cs" />
+    <Compile Include="EntityFramework\EfOrderDal.cs" />
+    <Compile Include="EntityFramework\EfProductDal.cs" />
     <Compile Include="Migrations\202505110800388_InitialCreate.cs" />
     <Compile Include="Migrations\202505110800388_InitialCreate.designer.cs">
       <DependentUpon>202505110800388_InitialCreate.cs</DependentUpon>
@@ -68,15 +73,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
       <Project>{D603E822-5E96-4094-9FFC-DA312DE9ECCC}</Project>
