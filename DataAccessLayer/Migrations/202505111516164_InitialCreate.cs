@@ -68,6 +68,7 @@
                         Surname = c.String(),
                         District = c.String(),
                         City = c.String(),
+                        Status = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             

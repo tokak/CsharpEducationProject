@@ -63,13 +63,9 @@
     <Compile Include="EntityFramework\EfCustomerDal.cs" />
     <Compile Include="EntityFramework\EfOrderDal.cs" />
     <Compile Include="EntityFramework\EfProductDal.cs" />
-    <Compile Include="Migrations\202505110800388_InitialCreate.cs" />
-    <Compile Include="Migrations\202505110800388_InitialCreate.designer.cs">
-      <DependentUpon>202505110800388_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202505110803216_mig1.cs" />
-    <Compile Include="Migrations\202505110803216_mig1.designer.cs">
-      <DependentUpon>202505110803216_mig1.cs</DependentUpon>
+    <Compile Include="Migrations\202505111516164_InitialCreate.cs" />
+    <Compile Include="Migrations\202505111516164_InitialCreate.designer.cs">
+      <DependentUpon>202505111516164_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,7 +75,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
       <Project>{D603E822-5E96-4094-9FFC-DA312DE9ECCC}</Project>
@@ -87,11 +82,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202505110800388_InitialCreate.resx">
-      <DependentUpon>202505110800388_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202505110803216_mig1.resx">
-      <DependentUpon>202505110803216_mig1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202505111516164_InitialCreate.resx">
+      <DependentUpon>202505111516164_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
