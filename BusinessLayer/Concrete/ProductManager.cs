@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.DTO;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,11 @@ namespace BusinessLayer.Concrete
         public Product TGetById(int id)
         {
            return _productDal.GetById(id);
+        }
+
+        public List<ProductWithCategoryDto> TGetProductsWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
         }
 
         public void TInsert(Product entity)

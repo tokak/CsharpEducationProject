@@ -62,5 +62,10 @@ namespace PresentationLayer
             _categoryService.TUpdate(updatedValues);
             MessageBox.Show("Güncelleme işlemi başarılı");
         }
+
+        private void FormCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
